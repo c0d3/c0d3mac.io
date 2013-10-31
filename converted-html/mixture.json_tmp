@@ -1,11 +1,11 @@
 {
-"debug": true,
-"lintScripts": true,
+"debug": false,
+"lintScripts": false,
 "preprocessorLocations": null,
 "preprocessorScriptOutput": null,
 "preprocessorStyleOutput": null,
-"projectName": "c0d3mac",
-"projectDescription": "GitHub Repository",
+"projectName": "Your project name",
+"projectDescription": "Your project description",
 "publishedId": null,
 "serverHostname": null,
 "serverPort": null,
@@ -13,7 +13,7 @@
 "templateDefaultLayout": "layout",
 "templateDefaultPage": "index",
 "type": "mixture",
-"useCompass": true,
+"useCompass": false,
 "simpleModePartnerServer": null,
 "modelSource": null,
 "domain": null,
@@ -24,23 +24,15 @@
 "routes": null,
 "remoteDebugPort": 0,
 "simpleModeFileTypes": null,
-"useNodeSass": true,
+"useNodeSass": false,
 "optimiseImages": true,
 "password": null,
 "ignoreDir": "ignore",
 "cusgtomTodos": null,
 "ftpSettings": null,
-"autoPrefixer": {
-"active": true,
-"browsers": [
-"last 1 version",
-"> 1%",
-"ie 8",
-"ie 7"
-]
-},
+"autoPrefixer": null,
 "sass": null,
-"sitemap": true,
+"sitemap": false,
 "gitHubPages": null,
 "convertHtmlExtension": ".html"
 }
