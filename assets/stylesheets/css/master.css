@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+body {
+  background: #fbfcfc;
+  color: #7f8c8d;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+#wrapper {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  #wrapper:before, #wrapper:after {
+    content: " ";
+    display: table; }
+  #wrapper:after {
+    clear: both; }
+
+.container {
+  padding-top: 40px;
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%; }
+  .container:last-child {
+    margin-right: 0; }
+
+.links {
+  border-top: 1px solid #e74c3c; }
+
+a:link {
+  color: #e74c3c;
+  text-decoration: none; }
+
+a:visited {
+  color: #e74c3c; }
+
+a:hover {
+  color: #d14233; }
+
+a:active {
+  color: #e74c3c; }
+
+.red {
+  color: #e74c3c; }
+
+/** Notes
+
+Bourbon have a clearfix in bourbon/addons. just use @include clearfix;
+
+**/

@@ -1,0 +1,43 @@
+
+// Colors
+$main: #FBFCFC;
+$main-dark: #BDC3C7;
+$text: #7F8C8D;
+$link: #E74C3C;
+$hover: #D14233;
+
+// Layout
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+	background: $main;
+	color: $text;
+	font-family: $helvetica;
+	font-size: 16px;
+}
+
+#wrapper {
+	@include outer-container;
+}
+
+.container {
+	padding-top: 40px;
+	@include span-columns(6);
+	@include shift(3);
+}
+
+.links {
+	border-top: 1px solid $link;
+}
+
+// Text 
+a:link { color:$link; text-decoration: none; }      
+a:visited {color:$link;} 
+a:hover {color:$hover;}  
+a:active {color:$link;}  
+.red { color: $link;}

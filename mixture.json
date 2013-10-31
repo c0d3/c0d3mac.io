@@ -1,0 +1,19 @@
+{
+  "customRubyPath": null,
+  "debug": false,
+  "followLeader": true,
+  "lintScripts": false,
+  "preprocessorLocations": "assets",
+  "preprocessorScriptOutput": "assets/js",
+  "preprocessorStyleOutput": "assets/stylesheets/css",
+  "projectDescription": "A boilerplate with Bourbon - Neat & HTML5 boilerplate",
+  "projectName": "c0d3mac",
+  "publishedId": null,
+  "serverHostname": "10.0.2.2",
+  "serverPort": null,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": false
+}
